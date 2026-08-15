@@ -18,7 +18,7 @@ uvx `
     --distpath dist `
     --workpath build/pyinstaller `
     --specpath build `
-    src/pdfconvert/app.py
+    src/pdfconvert/__main__.py
 
 if ($LASTEXITCODE -ne 0) {
     throw "PyInstaller build failed with exit code $LASTEXITCODE."
