@@ -30,6 +30,18 @@ uv run pdfconvert
 uv run pytest
 ```
 
+## 建置 Windows EXE
+
+先同步開發依賴，再執行打包腳本：
+
+```powershell
+uv sync --group dev
+.\scripts\build.ps1
+```
+
+完成後的單一執行檔位於 `dist\pdfconvert.exe`。使用者不需另外安裝 Python，
+但轉檔時仍需安裝 LibreOffice，或已安裝 Microsoft Word 與 PowerPoint。
+
 ## 使用方式
 
 1. 將 PPTX 或 DOCX 拖入視窗。
