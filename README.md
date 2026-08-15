@@ -11,7 +11,7 @@ Windows 桌面工具，可將多個 `.pptx` 與 `.docx` 拖曳至視窗、調整
 - 原始文件不會被修改，過程中的暫存 PDF 會自動清除
 
 ## exe載點
-https://drive.google.com/drive/folders/18HO6wQ_3N3hLXyRPn8pUM91lQA62rgtZ?usp=sharing
+[Google Drive](https://drive.google.com/drive/folders/18HO6wQ_3N3hLXyRPn8pUM91lQA62rgtZ?usp=sharing)
 
 ## 安裝與執行
 
