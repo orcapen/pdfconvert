@@ -10,6 +10,9 @@ Windows 桌面工具，可將多個 `.pptx` 與 `.docx` 拖曳至視窗、調整
 - 優先使用 LibreOffice；Windows 若未安裝 LibreOffice，則嘗試使用 Microsoft Office
 - 原始文件不會被修改，過程中的暫存 PDF 會自動清除
 
+## exe載點
+https://drive.google.com/drive/folders/18HO6wQ_3N3hLXyRPn8pUM91lQA62rgtZ?usp=sharing
+
 ## 安裝與執行
 
 需先安裝 [uv](https://docs.astral.sh/uv/) 與 Python 3.11 以上版本。
