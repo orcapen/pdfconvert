@@ -15,7 +15,6 @@ pdfconvert = "pdfconvert.app:main"
 
 [dependency-groups]
 dev = [
-    "pyinstaller>=6.22.0",
     "pytest>=8.0",
 ]
 

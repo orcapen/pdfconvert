@@ -1,10 +1,9 @@
 # 輕量文件合併轉 PDF
 
-一款輕量、直覺的 Windows 桌面工具，可將多個 `.pptx` 與 `.docx` 拖曳至視窗、調整順序，再轉換並合併成單一 PDF。單檔 EXE 即開即用，不需另外安裝 Python，也不會在背景常駐。
+一款輕量、直覺的 Windows 桌面工具，可將多個 `.pptx` 與 `.docx` 拖曳至視窗、調整順序，再轉換並合併成單一 PDF。
 
 ## 輕量特色
 
-- 單一 EXE，免安裝、免設定 Python 環境
 - 介面簡潔，專注於排序、轉檔與合併
 - 不建立背景服務，不修改原始文件
 - 暫存 PDF 會在處理完成後自動清除
@@ -17,10 +16,6 @@
 - 自動依清單順序轉檔與合併
 - 優先使用 LibreOffice；Windows 若未安裝 LibreOffice，則嘗試使用 Microsoft Office
 - 原始文件不會被修改，過程中的暫存 PDF 會自動清除
-
-## EXE 下載
-
-[Google Drive](https://drive.google.com/drive/folders/18HO6wQ_3N3hLXyRPn8pUM91lQA62rgtZ)
 
 ## 安裝與執行
 
@@ -41,18 +36,6 @@ uv run pdfconvert
 ```powershell
 uv run pytest
 ```
-
-## 建置 Windows EXE
-
-先同步開發依賴，再執行打包腳本：
-
-```powershell
-uv sync --group dev
-.\scripts\build.ps1
-```
-
-完成後的單一執行檔位於 `dist\pdfconvert.exe`。使用者不需另外安裝 Python，
-但轉檔時仍需安裝 LibreOffice，或已安裝 Microsoft Word 與 PowerPoint。
 
 ## 使用方式
 
